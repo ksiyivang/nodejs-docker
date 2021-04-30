@@ -4,7 +4,15 @@
   "main": "index.js",
   "author": "KHAMLA SIYIVANG",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon -L index.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devdependencies": { 
+    "nodemon": "^2.0.7"
   }
 }
