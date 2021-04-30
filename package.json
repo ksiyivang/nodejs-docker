@@ -1,0 +1,10 @@
+{
+  "name": "nodejs-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "KHAMLA SIYIVANG",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
