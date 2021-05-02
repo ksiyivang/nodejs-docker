@@ -4,5 +4,6 @@ WORKDIR /app
 COPY package.json .
 RUN yarn install
 COPY . ./
-EXPOSE 8000
-CMD ["yarn","dev"]
+ENV PORT 8000
+EXPOSE $PORT
+CMD ["yarn","dev"] 
