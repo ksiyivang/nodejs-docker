@@ -10,4 +10,11 @@ services:
       - /app/node_modules
     environment:
       - NODE_ENV=development
+      - MONGO_USERNAME=khamla
+      - MONGO_PASSWORD=mypassword
     command: yarn dev
+  mongo:
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=khamla
+      - MONGO_INITDB_ROOT_PASSWORD=mypassword
