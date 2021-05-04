@@ -14,7 +14,7 @@ const options = {
     family: 4 // Use IPv4, skip trying IPv6
 };
 
-mongoose.connect("mongodb://khamla:mypassword@172.27.0.2:27017/?authSource=admin", { useNewUrlParser: true })
+mongoose.connect("mongodb://khamla:mypassword@mongo:27017/?authSource=admin", { useNewUrlParser: true })
     .then(() => {
         console.log("successfully connect to mongdDB...at ")
     })
